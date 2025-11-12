@@ -1,0 +1,16 @@
+---
+Name: event-tickets-app
+After: 
+  - 'event-tickets/*'
+  - '#rootroutes'
+  - '#coreroutes'
+---
+SilverStripe\Security\Member:
+  extensions:
+    - 'XD\EventTickets\App\Extensions\TicketScannerExtension'
+
+SilverStripe\Control\Director:
+  rules:
+    'eventtickets/authenticator': 'XD\EventTickets\App\Controller\Authenticator'
+    'eventtickets/authenticator/validatetoken': 'XD\EventTickets\App\Controller\Authenticator'
+    'eventtickets/validate': 'XD\EventTickets\App\Controller\TicketValidator'

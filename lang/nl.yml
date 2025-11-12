@@ -1,0 +1,6 @@
+nl:
+  TicketValidator:
+    ERROR_SERVER_SETUP: 'De server is niet goed ingesteld, neem contact op met uw beheerder.'
+    ERROR_WRONG_AUTHENTICATION: 'Verkeerde gebruikersnaam of wachtword opgegeven.'
+    ERROR_USER_PERMISSIONS: 'U heeft niet genoeg bevoegdheden om de check in af te handelen.'
+    ERROR_TOKEN_AUTHENTICATION_FAILED: 'Het verzoek kon niet geauthenticeerd worden, probeer opnieuw in te loggen.'

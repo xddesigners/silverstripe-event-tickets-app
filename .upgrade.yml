@@ -1,0 +1,2 @@
+mappings:
+  Broarm\EventTickets\App\Model\Device: XD\EventTickets\App\Model\Device

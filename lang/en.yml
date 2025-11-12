@@ -1,0 +1,6 @@
+en:
+  TicketValidator:
+    ERROR_SERVER_SETUP: 'The server is not set up properly, contact your site administrator.'
+    ERROR_WRONG_AUTHENTICATION: 'Wrong username or password given.'
+    ERROR_USER_PERMISSIONS: 'You don’t have enough permissions to handle the check in.'
+    ERROR_TOKEN_AUTHENTICATION_FAILED: 'The request could not be authenticated, try to log in again.'

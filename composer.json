@@ -1,0 +1,25 @@
+{
+  "name": "xddesigners/silverstripe-event-tickets-app",
+  "description": "Adds integration with the Ticket Scanner app",
+  "type": "silverstripe-vendormodule",
+  "homepage": "https://github.com/TheBnl/event-tickets-app",
+  "keywords": ["silverstripe", "ticket", "omnipay", "event", "calendar"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Remy Vaartjes",
+      "email": "remy@xd.nl"
+    }
+  ],
+  "require": {
+    "silverstripe/framework": "^4",
+    "silverstripe/cms": "^4",
+    "xddesigners/silverstripe-event-tickets": "^2",
+    "firebase/php-jwt": "*"
+  },
+  "autoload": {
+      "psr-4": {
+          "XD\\EventTickets\\App\\": "src"
+      }
+  }
+}
