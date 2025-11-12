@@ -14,7 +14,7 @@
   "require": {
     "silverstripe/framework": "^4",
     "silverstripe/cms": "^4",
-    "xddesigners/silverstripe-event-tickets": "^2",
+    "xddesigners/silverstripe-event-tickets": "*",
     "firebase/php-jwt": "*"
   },
   "autoload": {
