@@ -12,8 +12,8 @@
     }
   ],
   "require": {
-    "silverstripe/framework": "^4",
-    "silverstripe/cms": "^4",
+    "silverstripe/framework": "^6",
+    "silverstripe/cms": "^6",
     "xddesigners/silverstripe-event-tickets": "*",
     "firebase/php-jwt": "*"
   },
@@ -21,5 +21,10 @@
       "psr-4": {
           "XD\\EventTickets\\App\\": "src"
       }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "6.x-dev"
+    }
   }
 }
