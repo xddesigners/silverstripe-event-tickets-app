@@ -6,7 +6,7 @@ use XD\EventTickets\App\Model\Device;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\GridField\GridField;
 use SilverStripe\Forms\GridField\GridFieldConfig_RecordEditor;
-use SilverStripe\ORM\DataExtension;
+use SilverStripe\Core\Extension;
 use SilverStripe\Security\Member;
 
 /**
@@ -16,7 +16,7 @@ use SilverStripe\Security\Member;
  * @property string TicketScannerAppToken
  * @method HasManyList ScanDevices()
  */
-class TicketScannerExtension extends DataExtension
+class TicketScannerExtension extends Extension
 {
     private static $has_many = array(
         'ScanDevices' => Device::class
